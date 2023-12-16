@@ -1,7 +1,7 @@
-const int Bouton_rouge=2; // définis l'entrée de bouton rouge
-const int Bouton_vert=4; // définis l'entrée de bouton vert
-const int Bouton_jaune=8; // définis l'entrée de bouton jaune
-const int Bouton_bleu=12; // définis l'entrée de bouton bleu
+const int Bouton_rouge=2; // définie l'entrée de bouton rouge
+const int Bouton_vert=4; // définie l'entrée de bouton vert
+const int Bouton_jaune=8; // définie l'entrée de bouton jaune
+const int Bouton_bleu=12; // définie l'entrée de bouton bleu
 const int rouge=3; // nombre de fois que l'on doit appuyer sur le bouton rouge
 const int vert=4; // nombre de fois que l'on doit appuyer sur le bouton vert
 const int jaune=2; // nombre de fois que l'on doit appuyer sur le bouton jaune
@@ -23,10 +23,10 @@ int ancien_valb=1; // ancienne valeur du bouton bleu
 
 void setup() {
 Serial.begin(9600);
-pinMode(Bouton_rouge,INPUT_PULLUP); // définis le bouton rouge comme une entrée (cela prend en plus la résistance)
-pinMode(Bouton_vert,INPUT_PULLUP); // définis le bouton vert comme une entrée (cela prend en plus la résistance)
-pinMode(Bouton_jaune,INPUT_PULLUP); // définis le bouton jaune comme une entrée (cela prend en plus la résistance)
-pinMode(Bouton_bleu,INPUT_PULLUP); // définis le bouton bleu comme une entrée (cela prend en plus la résistance)
+pinMode(Bouton_rouge,INPUT_PULLUP); // définie le bouton rouge comme une entrée (cela prend en plus la résistance)
+pinMode(Bouton_vert,INPUT_PULLUP); // définie le bouton vert comme une entrée (cela prend en plus la résistance)
+pinMode(Bouton_jaune,INPUT_PULLUP); // définie le bouton jaune comme une entrée (cela prend en plus la résistance)
+pinMode(Bouton_bleu,INPUT_PULLUP); // définie le bouton bleu comme une entrée (cela prend en plus la résistance)
 }
 
 void loop() {
