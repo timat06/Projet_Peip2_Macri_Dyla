@@ -84,7 +84,7 @@ if(resultat==rouge+jaune+vert+bleu){ // si on a appuyé le bon nombre de fois et
 }
 if (etape==1){
   if ((valr==LOW)&&(ancien_valr==HIGH)){ // si le bouton rouge est appuyé et que qu'il ne l'était pas avant alors 
-  if((resultat==3)||(resultat==7)||(resultat==8)||(resultat==11){ // si le resultat est inférieur au nombre de fois que l'on doit appuyer sur rouge alors
+  if((resultat==3)||(resultat==7)||(resultat==8)||(resultat==11)){ // si le resultat est inférieur au nombre de fois que l'on doit appuyer sur rouge alors
     resultat= resultat+1; //resultat+=1
     Serial.println(resultat);
   }
